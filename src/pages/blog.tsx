@@ -9,7 +9,7 @@ export function Blog() {
       <Card
         title="My first blog"
         description="A story about how I create my first blog"
-        href="/my-first-blog"
+        href="/nnhilys/my-first-blog"
       />
     </AppPage>
   )
