@@ -5,19 +5,21 @@ interface Props {
   children: ReactNode
   title: ReactNode
   description?: string
-  isMain?: boolean
 }
 
 export function AppPage(props: Props) {
-  const { children, title, description, isMain } = props
+  const { children, title, description } = props
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-full text-center px-32 py-10 space-y-2">
-        <div className="text-lg">{isMain ? title : <Link href="/nnhilys/">{title}</Link>}</div>
+      <header className="text-center space-y-2 sticky top-0 bg-white py-10 px-32">
+        <Link className="text-xl" href="/nnhilys/">
+          <strong><i>nnhilys</i></strong>
+        </Link>
+        <div className="text-lg">{title}</div>
         <div className="text-sm"><i>{description}</i></div>
       </header>
-      <main className="flex flex-col items-center gap-4 text-justify">
+      <main className="flex flex-col items-center gap-4 text-justify px-32">
         {children}
       </main>
     </>
