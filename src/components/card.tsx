@@ -12,7 +12,7 @@ export function Card(props: Props) {
   return (
     <Link className="flex gap-2" href={href}>
       <strong>{title}</strong>
-      <span>-</span>
+      -
       <i>{description}</i>
     </Link>
   )
