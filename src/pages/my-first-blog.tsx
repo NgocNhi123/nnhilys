@@ -8,26 +8,26 @@ export function MyFirstBlog() {
       createdAt={new Date('2024-05-19')}
     >
       <p>
-        Almost everyone I asked
+        Almost everyone I asked,
         <i> "How can I improve my technical skills?" </i>
         gave me the same answer:
       </p>
       <blockquote>
-        <strong>"Build your own blog, you'll learn a ton along the way!"</strong>
+        <strong>"Build your own blog; you'll learn a ton along the way!"</strong>
       </blockquote>
       <p>
-        after immersing myself in the tech field for 2 and a half years, I embarked
-        on the journey of creating my own blog. Initially, my imagination ran
+        After immersing myself in the tech field for two and a half years, I
+        finally decided to create my own blog. Initially, my imagination ran
         wild with ideas of fancy animations and vibrant designs, or perhaps
         crafting something utterly unique. However, I soon realized that the
-        essence of a good blog lies in its content, not just its aesthetics. So
-        here we are with a blog that covers just the basics of the basics.
+        essence of a good blog lies in its content, not just its aesthetics. So,
+        I decided to focus on covering the basics.
       </p>
       <p>
-        Although I had set up multiple projects before, setting up and deploying
-        the blog are still among the things that I struggle with the most.
-        Fortunately, Vite's comprehensive documentation provided the guidance I
-        needed, simplifying these processes significantly.
+        Even though I had set up multiple projects before, setting up and
+        deploying the blog was still challenging. Fortunately, Vite's
+        comprehensive documentation provided the guidance I needed, making
+        these processes much simpler.
       </p>
       <p>
         <a
@@ -38,14 +38,14 @@ export function MyFirstBlog() {
           <i>To kickstart the project with React & TypeScript</i>
           <sup>[1]</sup>
         </a>
-        , I used the command:
+        , I used the following command:
       </p>
       <code>
         <strong>npm create vite@latest my-app -- --template react-ts</strong>
       </code>
       <p>
-        Next step was to figure out how to deploy this app to the Internet. And
-        once again, Vite came to the rescue with
+        The next step was figuring out how to deploy this app to the Internet.
+        And once again, Vite came to the rescue with its guide on
         {' '}
         <a
           href="https://vitejs.dev/guide/static-deploy.html"
@@ -59,7 +59,7 @@ export function MyFirstBlog() {
       </p>
       <p>
         After all that was done, the final piece of the puzzle before I could
-        dive into writing was the routing. For this task, I opted for
+        dive into writing was the routing. For this task, I chose
         {' '}
         <a
           href="https://github.com/molefrog/wouter"
@@ -96,10 +96,8 @@ export function MyFirstBlog() {
       <p>
         What can readers expect from this blog? A mix of everything, with a focus
         on tech. I'll delve into topics I've overlooked, like HTML semantics,
-        ensuring content is accessible and correctly structured. Since I view
-        this blog as a writing exercise, you probably won't find anything here
-        that you couldn't find elsewhere. Finally, I'm eager to see where
-        this journey takes us. That's all from me, see you in my next post.
+        ensuring content is accessible and correctly structured. I'm eager to see
+        where this journey takes us. That's all from me, see you in my next post.
       </p>
       <p>
         Though this blog looks quite vanilla right now, don't be too surprised
